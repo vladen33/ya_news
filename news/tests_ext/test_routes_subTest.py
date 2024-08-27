@@ -1,6 +1,5 @@
 # news/tests/test_routes.py
 from http import HTTPStatus
-from http.client import responses
 
 from django.contrib.auth import get_user_model
 from django.test import TestCase
