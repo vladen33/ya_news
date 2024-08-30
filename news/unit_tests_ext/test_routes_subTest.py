@@ -1,4 +1,4 @@
-# news/tests/test_routes.py
+# news/pytest_tests/test_routes.py
 from http import HTTPStatus
 
 from django.contrib.auth import get_user_model

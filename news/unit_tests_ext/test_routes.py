@@ -1,4 +1,4 @@
-# news/tests/test_routes.py
+# news/pytest_tests/test_routes.py
 from http import HTTPStatus
 
 from django.test import TestCase
