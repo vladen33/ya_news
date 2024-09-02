@@ -40,7 +40,6 @@ def test_user_cants_use_badwords(author_client, url_detail):
     assertFormError(response, 'form', 'text', errors=WARNING)
 
 
-
 def test_author_can_edit_comment(author_client, url_comment,
                                  url_edit, comment):
     response = author_client.post(url_edit, data={'text': NEW_COMMENT_TEXT})
